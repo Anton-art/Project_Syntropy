@@ -1,4 +1,4 @@
-# SYNTROPIC LEDGER & MEMORY (SKB v5.1)
+# SYNTROPIC LEDGER & MEMORY (SKB v5.2)
 
 **Type:** Architecture Specification
 **Component:** L2/L3 Memory Subsystem
@@ -14,7 +14,8 @@ In the **"Environment — Particle"** paradigm, memory performs two functions:
 2.  **For Environment:** A "Gene Pool Library" (storage of useful mutations).
 
 We reject the idea of "eternal storage of everything". We introduce the concept of **Thermodynamic Value of Data**.
-*   Garbage (Entropy) must burn.
+*   Technical Noise (Entropy) must be filtered.
+*   Human Creativity (Potential) must be preserved (frozen or active).
 *   Meaning (Syntropy) must crystallize into Reputation (SBT).
 
 ## 2. STORAGE TIERS
@@ -38,6 +39,9 @@ The system implements physical data separation according to the **25/75 Rule** (
     *   **Zone B (Potential):** "Sleeping" genius ideas ($\alpha=0$), awaiting resources.
 *   **Economy Link:** Entry of a file into L2 automatically triggers **Minting SBT** (reputation accrual to the Particle).
 *   **Tech:** Vector DB (Weaviate/Qdrant) + IPFS/Blockchain Links.
+**Structure:**
+*   **The Index (Hot):** Vectors and Graphs acting as a **Semantic Navigator**.
+*   **The Vault (Cold):** Original files (PDF/Code) stored in IPFS/File System. The Vector points to the File.
 
 ### **L3: DEEP FREEZE (Archive & Black Log)**
 *   **Content:**
@@ -59,11 +63,19 @@ The Environment uses two independent scales for data management.
 *   *Impacts:* **Retention** and **Reward (SBT)**.
 *   *Link:* An object can be "Cold" (no one reads a 19th-century treatise) but have extremely high $\mu$ (Meaning). The Environment **never** deletes objects with high $\mu$, even if $T \to 0$.
 
+#### **3.3. Hybrid Retrieval (The Recall Protocol)**
+To ensure both Creativity and Precision, the System uses a 3-layer search strategy:
+1.  **Vector Search:** Finding associative meanings ("Concepts").
+2.  **Graph Traversal:** Finding logical connections ("Context").
+3.  **Lexical Search:** Finding exact facts/keywords in the Cold Vault ("Precision").
+
 ## 4. DATA SCHEMA (v5.0)
+
+**Data Concept:** The Vector Database acts as a **Semantic Navigator** for the Main Storage. Each Asset is a "Card" containing the math (Vector) and the address (Link to the cold file).
 
 JSON structure of a "Syntropic Asset". Implements binding to owner (DID) and proof of value.
 
-```JavaScript
+```javascript
 {
   "asset_id": "uuid-v4-hash",
   "owner_did": "did:syntropy:particle_x892...", // Owner (Particle)
@@ -159,5 +171,5 @@ The SKB v5.1 architecture turns the database into a **Bank of Meaning**.
 4.  **Labor is rewarded:** Every L2 entry increases social capital (SBT).
 
 This is the foundation for building a **Civilization of Memory**.
-
+```
 
