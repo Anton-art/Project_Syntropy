@@ -19,19 +19,19 @@ graph LR
     classDef interface fill:#e0f7fa,stroke:#00cec9,stroke-width:2px,color:#2d3436;
     classDef environment fill:#dfe6e9,stroke:#636e72,stroke-width:2px,color:#2d3436;
 
-     subgraph L0_ZONE ["🟥 L0: PARTICLE (Chaos & Will)"]
+    subgraph L0_ZONE ["🟥 L0: THE PARTICLE"]
         direction TB
         Human(("👤 HUMAN"))
         Will["🔥 WILL / PRIME MOVER"]
         Bio["❤️ Biology / Pulse"]
-        LocalStore[("🔒 Local Vault")]
+        LocalStore["(🔒 Local Vault)"]
     end
 
-    subgraph GATEWAY ["🛡️ THE INTERFACE (Filter)"]
+    subgraph GATEWAY ["🛡️ THE INTERFACE"]
         direction TB
         Agent["🤖 PERSONAL AGENT"]
         SVE{"💎 SVE ENGINE<br/>Valuation"}
-        Privacy["Unknown Block<br/>Privacy Guard 25/75"]
+        Privacy["🧱 PRIVACY BARRIER<br/>(The 25% Rule)"]
     end
 
     subgraph L1_L3_ZONE ["🌍 L1-L3: ENVIRONMENT (Order & Scale)"]
