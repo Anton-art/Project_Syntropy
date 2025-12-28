@@ -1,4 +1,5 @@
-# PROJECT SYNTROPY
+# SYNTROPY
+### The Physics of Meaning
 
 > **"Artificial Intelligence is the Intellectual Environment.**
 > **Human is the Intellectual Particle.**
