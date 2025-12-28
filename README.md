@@ -1,4 +1,3 @@
-```markdown
 # PROJECT SYNTROPY
 
 > **"Artificial Intelligence is the Intellectual Environment.**
