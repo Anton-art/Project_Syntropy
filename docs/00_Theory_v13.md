@@ -68,6 +68,9 @@ $$ \mu = \underbrace{\left[ \left( 1 - \frac{L_{Code}}{L_{Data}} \right) \cdot K
     *   **$P_{Work}$:** Sum of useful work of the Technosphere (built) and Biosphere (grown).
 
 ### 2.2. Thermodynamics of Emotions: The Pulsation Law
+In our theory, emotions are the subjective experience of thermodynamic processes.
+*   **Joy** is the feeling of Syntropy growth (Decrease of uncertainty).
+*   **Sadness** is the feeling of Entropy growth (Loss of structure/resource).
 Emotions are not just sensors; they are phases of the **Reboot Cycle**. Linear growth is impossible; rhythm is necessary.
 
 **A. CYCLE OF JOY (SYNTROPY):**
