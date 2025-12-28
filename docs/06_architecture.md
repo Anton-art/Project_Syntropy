@@ -178,5 +178,5 @@ Version 3.2 eliminates the "Master/Slave" conflict.
 *   We are building an **Environment** that understands the physiological cost of thought, knows how to sustain Flow states, and insures against fatal errors.
 
 The architecture is ready for deployment in `Phase 0 Simulation`.
-```
+---
 
