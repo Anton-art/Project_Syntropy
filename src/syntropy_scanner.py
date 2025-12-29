@@ -90,12 +90,19 @@ class SyntropyScanner:
         
         if "DISRUPTION" in res.status:
             print(" [!] ALERT: High Novelty detected.")
-            print(" [!] ACTION: Run a Multi-Agent Simulation to test viability.")
+            print(" [!] DIAGNOSIS: Idea is too dense for immediate execution.")
+            
+            # Calculate Potential Mu (If we unpack the idea)
+            # Assumption: Unpacking reduces density to optimal (0.55) but increases length
+            potential_mu = res.mu_score * 5.0 
+            
+            print(f" [!] POTENTIAL SYNTROPY (µ_pot): {potential_mu:.2f} (If validated)")
+            print(" [!] ACTION: Run Simulation to unlock this potential.")
             
         print("-" * 60)
         print(f" > Info Density:   {res.density:.2f} (Target: {self.OPTIMAL_DENSITY})")
         print(f" > Vitality Index: {res.vitality:.2f}")
-        print(f" > SYNTROPY (µ):   {res.mu_score:.2f}")
+        print(f" > CURRENT SYNTROPY (µ): {res.mu_score:.2f}")
         print("-" * 60)
         print("\n")
 
