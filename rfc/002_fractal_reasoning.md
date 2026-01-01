@@ -1,5 +1,3 @@
----
-
 # ENGINEERING RFC 002
 ## FRACTAL THERMODYNAMICS OF REASONING
 **Version:** 2.0 (The Artist's Protocol)
