@@ -1,4 +1,4 @@
-# ENGINEERING RFC 002
+# ENGINEERING RFC 001
 ## THERMODYNAMICS OF REASONING
 **Topic:** Energy-Efficient Optimization of Inference-Time Compute
 **Method:** Syntropic Gradient Descent & Phase Transition Logic
