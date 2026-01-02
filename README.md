@@ -18,44 +18,51 @@ We are building an **Environment** that:
 ### ⚛️ Architecture Visualization
 
 ```mermaid
-graph LR
+graph TB
     %% Node Styling
-    classDef particle fill:#ffecd1,stroke:#ff6b6b,stroke-width:2px,color:#d63031;
+    classDef particle fill:#fff0f0,stroke:#ff6b6b,stroke-width:2px,color:#d63031;
     classDef interface fill:#e0f7fa,stroke:#00cec9,stroke-width:2px,color:#2d3436;
-    classDef environment fill:#dfe6e9,stroke:#636e72,stroke-width:2px,color:#2d3436;
+    classDef environment fill:#f1f2f6,stroke:#636e72,stroke-width:2px,color:#2d3436;
 
+    %% --- L0: THE PARTICLE (TOP LAYER) ---
     subgraph L0_ZONE ["🟥 L0: THE PARTICLE"]
-        direction TB
+        direction LR
         Human(("👤 HUMAN"))
         Vault["🔒 Local Vault<br/>(Private Chaos)"]
     end
 
+    %% --- INTERFACE (MIDDLE LAYER) ---
     subgraph GATEWAY ["🛡️ THE INTERFACE"]
         direction TB
         Agent["🤖 PERSONAL AGENT<br/>(Alignment Engine)"]
         Dispatcher{"🩺 CLINICAL DISPATCHER<br/>(SVE + Fractal Scan)"}
     end
 
+    %% --- ENVIRONMENT (BOTTOM LAYER) ---
     subgraph L1_L3_ZONE ["🌍 L1-L3: ENVIRONMENT"]
-        direction TB
+        direction LR
         Substrate[("📚 L1: SUBSTRATE<br/>(Facts & Logs)")]
-        Malachite[("💎 L2/L3: MALACHITE DB<br/>(Topological Crystal)")]
+        Malachite[("💎 L2/L3: MALACHITE<br/>(Topological Crystal)")]
         Core["⚖️ BENEVOLENT CORE<br/>(Metabolism 75/25)"]
     end
 
-    %% FLOW
-    Human -->|Intent| Agent
-    Agent -->|Testimony| Dispatcher
-    Dispatcher -->|Diagnosis| Core
+    %% --- FLOW CONNECTIONS ---
     
-    %% DATA PATHS
-    Dispatcher -- "Noise/Draft" --> Substrate
-    Dispatcher -- "Syntropy" --> Malachite
-    Dispatcher -- "Rejection" --> Vault
-
-    %% FEEDBACK - FIXED LINES BELOW
-    Core -- "Resources (UBI/Energy)" --> Agent
-    Malachite -- "Insight/Analogies" --> Agent
+    %% Main Downward Flow
+    Human ==>|Intent| Agent
+    Agent ==>|Testimony| Dispatcher
+    
+    %% Dispatcher Routing
+    Dispatcher -->|Noise/Draft| Substrate
+    Dispatcher ==>|Syntropy| Malachite
+    
+    %% Feedback Loops (Curved Lines)
+    Dispatcher -.->|Rejection| Vault
+    Core -.->|Resources (UBI)| Agent
+    Malachite -.->|Insight| Agent
+    
+    %% Internal Logic
+    Dispatcher -->|Diagnosis| Core
 
     %% Apply Styles
     class Human,Vault particle;
