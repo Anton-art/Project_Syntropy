@@ -41,8 +41,8 @@ graph TB
     %% --- ENVIRONMENT (BOTTOM LAYER) ---
     subgraph L1_L3_ZONE ["🌍 L1-L3: ENVIRONMENT"]
         direction LR
-        Substrate[("📚 L1: SUBSTRATE<br/>(Facts & Logs)")]
-        Malachite[("💎 L2/L3: MALACHITE<br/>(Topological Crystal)")]
+        Substrate["📚 L1: SUBSTRATE<br/>(Facts & Logs)"]
+        Malachite["💎 L2/L3: MALACHITE<br/>(Topological Crystal)"]
         Core["⚖️ BENEVOLENT CORE<br/>(Metabolism 75/25)"]
     end
 
