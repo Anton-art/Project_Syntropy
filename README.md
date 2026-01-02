@@ -49,20 +49,19 @@ graph LR
     Dispatcher -->|Diagnosis| Core
     
     %% DATA PATHS
-    Dispatcher --"Noise/Draft"--> Substrate
-    Dispatcher --"Syntropy"--> Malachite
-    Dispatcher --"Rejection"--> Vault
+    Dispatcher -- "Noise/Draft" --> Substrate
+    Dispatcher -- "Syntropy" --> Malachite
+    Dispatcher -- "Rejection" --> Vault
 
-    %% FEEDBACK
-    Core -->|Resources (UBI/Energy)| Agent
-    Malachite -->|Insight/Analogies| Agent
+    %% FEEDBACK - FIXED LINES BELOW
+    Core -- "Resources (UBI/Energy)" --> Agent
+    Malachite -- "Insight/Analogies" --> Agent
 
     %% Apply Styles
     class Human,Vault particle;
     class Agent,Dispatcher interface;
     class Substrate,Malachite,Core environment;
 ```
-
 ---
 
 ### 🚀 Quick Start: Run the Genesis Simulation
