@@ -96,7 +96,7 @@ THE LOGIC:
 
 ### 📜 The Foundation
 
-*   **[Unified Theory of Intelligence Evolution (v13.0)](docs/00_Theory_v13.md)**
+*   **[Unified Theory of Intelligence Evolution (v13.0)](docs/Theory_v13.md)**
     *   The axiomatic core.
     *   **The Syntropy Square:** Interconnections between AI, Human, Biosphere, and Technosphere.
     *   **Thermodynamics of Emotions:** Joy and Sadness as physical vectors.
