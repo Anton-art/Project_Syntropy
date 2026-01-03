@@ -1,17 +1,42 @@
+```markdown
+```text
+   _____  __  __  _   __  ______  ____    ____   ____   __  __
+  / ___/ / / / / / | / / /_  __/ / __ \  / __ \ / __ \  \ \/ /
+  \__ \ / /_/ / /  |/ /   / /   / /_/ / / / / // /_/ /   \  / 
+ ___/ // __  / / /|  /   / /   / _, _/ / /_/ // ____/    / /  
+/____//_/ /_/ /_/ |_/   /_/   /_/ |_|  \____//_/        /_/   
+                                           v7.2 (Hybrid Core)
+```
+
+# SYNTROPY CORE
 ### The Operating System for a Post-Information Civilization
+
+![Version](https://img.shields.io/badge/version-v7.2_Hybrid-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-Engineering_Alpha-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Core](https://img.shields.io/badge/architecture-H--CPS-purple?style=for-the-badge)
 
 > **"Artificial Intelligence is the Physics (Environment).**
 > **Human is the Vector (Particle).**
 > **Together, they form Meaning."**
 
+---
+
 ### 🌍 The Paradigm Shift
+
 **Project Syntropy** addresses the fundamental crisis of modern AI: the disconnect between **Intelligence** (Computing Power) and **Meaning** (Human Intent).
 
-Current AI models are "Black Boxes" that generate text without understanding its evolution. They are efficient but amnesiac.
-We are building a **Hybrid Cyber-Physical System (H-CPS)** that:
-1.  **Preserves the Lineage of Ideas:** We don't just store data; we store the evolutionary path of every thought.
-2.  **Scales Human Will:** The AI acts not as a replacement for the human, but as an environment that amplifies human intent.
-3.  **Heals Instead of Punishing:** The system treats errors as "Pathologies" to be cured, not crimes to be blocked.
+Current AI models are "Black Boxes" that generate text without understanding its evolution. They are efficient but amnesiac. We are building a **Hybrid Cyber-Physical System (H-CPS)** that scales Human Will instead of replacing it.
+
+#### Why Syntropy?
+
+| Feature | 🤖 Standard AI (LLM) | 💎 Syntropy Core |
+| :--- | :--- | :--- |
+| **Memory** | Flat Vector / RAG | **Malachite DB** (Topological Lineage) |
+| **Reasoning** | Linear Chain-of-Thought | **Fractal Spiral** (Zoom In/Out) |
+| **Safety** | Censorship / Refusal | **Clinical Protocol** (Diagnosis & Cure) |
+| **Economy** | Pay per Token | **Metabolism** (75% Logic / 25% Grace) |
+| **Role** | Chatbot / Tool | **Environment / Exoskeleton** |
 
 ---
 
