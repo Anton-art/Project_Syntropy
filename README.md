@@ -163,15 +163,17 @@ python src/simulation_genesis.py
 
 ---
 
-### 💻 The Codebase
+### 💻 The Codebase (`src/`)
 
-```text
-src/
-├── sve_core.py          # 🧠 THE BRAIN: SVE, Fractal Analyzer, Metabolism
-├── malachite_db.py      # 🧬 THE DNA: Topological Graph Database
-├── protocols.py         # 🗣️ THE LANGUAGE: Uplink & P2P Standards
-├── substrate_db.py      # 🧱 THE BODY: SQL/Vector Storage (L1)
-└── simulation_genesis.py # 🧪 THE LIFE: Multi-agent simulation runner
+The project is structured into 4 pillars:
+
+| File | Component | Function |
+| :--- | :--- | :--- |
+| **`sve_core.py`** | **THE BRAIN** | **Syntropic Value Engine (v7.2 Hybrid).** Includes the Fractal Analyzer, Clinical Dispatcher, and System Metabolism. |
+| **`malachite_db.py`** | **THE DNA** | **Topological Database (v1.0).** Stores knowledge as a growing crystal with lineage vectors and historical voids. |
+| **`protocols.py`** | **THE LANGUAGE** | **Communication Standards (v7.0).** Uplink (Agent-to-System) and P2P (Agent-to-Agent) protocols. |
+| **`substrate_db.py`** | **THE BODY** | **Foundation Layer.** Handles raw facts (L1) and private user vaults (L0). |
+
 ```
 ### ⚠️ Disclaimer
 Project Syntropy is an **experimental social architecture**.
