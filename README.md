@@ -174,6 +174,27 @@ The project is structured into 4 pillars:
 | **`protocols.py`** | **THE LANGUAGE** | **Communication Standards (v7.0).** Uplink (Agent-to-System) and P2P (Agent-to-Agent) protocols. |
 | **`substrate_db.py`** | **THE BODY** | **Foundation Layer.** Handles raw facts (L1) and private user vaults (L0). |
 
+### 🔌 Integration & Engine
+
+**Syntropy Core is LLM-Agnostic.**
+It acts as the **Executive Function** (Frontal Lobe) for your AI system, while the LLM acts as the **Generative Function** (Broca's Area).
+
+```python
+# Pseudo-code example of integration
+import openai
+from sve_core import SyntropicDispatcher
+
+# 1. Generate content (The Muscle)
+raw_text = openai.ChatCompletion.create(model="gpt-4", prompt="Invent a new wheel")
+
+# 2. Filter & Structure (The Conscience)
+dispatcher = SyntropicDispatcher()
+verdict = dispatcher.diagnose(entity, user_stats, text_stream=raw_text)
+
+if verdict.action == "AMPLIFY":
+    db.save(raw_text) # Save to Malachite
+else:
+    print(verdict.treatment) # "Idea needs refinement"
 ```
 ### ⚠️ Disclaimer
 Project Syntropy is an **experimental social architecture**.
