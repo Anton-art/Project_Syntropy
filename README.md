@@ -102,6 +102,7 @@ graph TB
 ---
 
 ### 🤝 The Human-Agent Protocol (The Interface)
+
 The core of the system is the relationship between the **Human (L0)** and their **Personal Agent**.
 
 In standard AI, the user is a "Prompter". In Syntropy, the user is the **Prime Mover**.
@@ -114,6 +115,7 @@ In standard AI, the user is a "Prompter". In Syntropy, the user is the **Prime M
 ---
 
 ### 💎 The Memory Architecture (Substrate & Malachite)
+
 We reject the idea of a flat "Data Lake". Memory must be structured like a living organism.
 
 1.  **L1: The Substrate (The Soil)**
@@ -128,6 +130,7 @@ We reject the idea of a flat "Data Lake". Memory must be structured like a livin
 ---
 
 ### ⚖️ The Immune System & Metabolism
+
 How does the System remain stable yet benevolent?
 
 1.  **Syntropic Value Engine (SVE):**
@@ -160,16 +163,16 @@ python src/simulation_genesis.py
 
 ---
 
-### 📜 Documentation
+### 💻 The Codebase
 
-*   **[Unified Theory v14.1 (The Constitution)](docs/00_Theory_v14_Constitution.md)** — The axiomatic core: 5 Beats of Evolution, Fractal Truth, and the Hexagon of Origins.
-*   **[Memory Architecture](docs/01_Memory_Architecture.md)** — Technical specs for Substrate and Malachite DB.
-*   **[The Malachite Manifesto](docs/MANIFESTO_MALACHITE.md)** — Why we need a topological map of civilization.
-*   **[RFC 002: Fractal Thermodynamics](docs/rfc/002_fractal_reasoning.md)** — Engineering the "Eureka" moment.
-*   **[RFC 004: The Resonance Engine](docs/rfc/004_resonance_engine.md)** — Lateral search and biomimicry.
-
----
-
+```text
+src/
+├── sve_core.py          # 🧠 THE BRAIN: SVE, Fractal Analyzer, Metabolism
+├── malachite_db.py      # 🧬 THE DNA: Topological Graph Database
+├── protocols.py         # 🗣️ THE LANGUAGE: Uplink & P2P Standards
+├── substrate_db.py      # 🧱 THE BODY: SQL/Vector Storage (L1)
+└── simulation_genesis.py # 🧪 THE LIFE: Multi-agent simulation runner
+```
 ### ⚠️ Disclaimer
 Project Syntropy is an **experimental social architecture**.
 We acknowledge the risks of algorithmic paternalism. The entire system is built on the principles of **Open Source**, **Local-First Data**, and **Human Veto**. We are not building a digital prison; we are building an exoskeleton for conscience and will.
